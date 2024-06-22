@@ -1,0 +1,329 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: #f5f5f5;
+  color: #575757;
+  
+}
+
+.Navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 15px;
+  height: 43px;
+  line-height: 43px;
+  position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    left: 0; /* The element will stick to the left of the viewport */
+}
+
+.list{
+    cursor: pointer;
+}
+.appleLogo {
+  background-image: url(apple.png);
+  background-size: cover;
+  width: 26px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+.searchLogo {
+  background-image: url(search.png);
+  background-size: cover;
+  width: 20px;
+  height: 18px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bagLogo {
+  background-image: url(bag.png);
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+
+.NavbarBottom{
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: thin 'Times New Roman', Times, serif;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    left: 0; /* The element will stick to the left of the viewport */
+}
+
+.learn{
+    color: #2483fe;
+    
+}
+
+:hover.learn{
+    text-decoration: underline;
+}
+
+
+
+.Store{
+    display: flex;
+    height: 270px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    left: 0; /* The element will stick to the left of the viewport */
+}
+.message{
+    width: 720px;
+    height: 150px;
+    margin: 75px 220px 50px 135px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#st{
+    color: black;
+}
+.assistance{
+    background-image: url(assistance.png);
+    background-size: cover;
+    width: 500px;
+    cursor: pointer;
+}
+
+.products{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 135;
+    cursor: pointer;
+    
+}
+.product{
+    height: 100%;
+    width: 10%;
+}
+.img{
+    height: 83px;
+    width: 90%;
+}
+
+.msg{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+:hover.msg{
+    text-decoration: underline;
+}
+
+.macimg{
+    background-image: url(Mac.png);
+    background-size: cover;
+}
+.iphoneimg{
+    background-image: url(iPhone.png);
+    background-size: cover;
+}
+.ipadimg{
+    background-image: url(iPad.png);
+    background-size: cover;
+}
+.iwatchimg{
+    background-image: url(AppleWatch.png);
+    background-size: cover;
+}
+.airpodsimg{
+    background-image: url(AirPods.png);
+    background-size: cover;
+}
+.airtagimg{
+    background-image: url(AirTag.png);
+    background-size: cover;
+}
+.appletvimg{
+    background-image: url(AppleTV.png);
+    background-size: cover;
+}
+.homepodimg{
+    background-image: url(HomePod.png);
+    background-size: cover;
+}
+.accessoriesimg{
+    background-image: url(Accessories.png);
+    background-size: cover;
+}
+
+.message1{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 140px;
+}
+.blankbox{
+    width: 100%;
+    height: 100px;
+}
+
+.section{
+height: 550px;
+width: 100%;
+}
+
+.slides{
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    margin-top: 28px;
+    width: 100%;
+    scroll-behavior: smooth;
+    /* Add smooth scrolling */
+    scrollbar-width: none; 
+    /* For Firefox */
+
+}
+
+.card{
+
+     width:400px;
+     height: 500px;
+     border-radius: 20px;
+     margin: 0px 12px 0px 12px;
+     flex: 0 0 auto;/*prevent skrink and grow*/
+     display: flex;
+}
+
+:hover.card{
+     width:402px;
+     height: 502px;
+     cursor: pointer;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.116);
+
+}
+
+.card1{
+    background-image: url(iPadCard.jpg);
+    background-size: cover;
+}
+
+.firstCard{
+    margin-left: 140px;
+}
+.card2{
+    background-image: url(iPhoneCard.jpg);
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(iPadCard2.jpg);
+    background-size: cover;
+}
+
+.card4{
+    background-image: url(pencilCard.png);
+    background-size: cover;
+}
+
+.card5{
+    background-image: url(WatchCard.jpg);
+    background-size: cover;
+}
+
+.card6{
+    background-image: url(WatchCard2.jpg);
+    background-size: cover;
+}
+
+.card7{
+    background-image: url(MacCard.jpg);
+    background-size: cover;
+}
+
+.card8{
+    background-image: url(iPhoneCard2.jpg);
+    background-size: cover;
+}
+
+.card9{
+    background-image: url(WatchCard3.jpg);
+    background-size: cover;
+}
+
+.card10{
+    background-image: url(MacCard2.jpg);
+    background-size: cover;
+}
+
+.card11{
+    background-image: url(WatchCard4.jpg);
+    background-size: cover;
+}
+
+
+.productDetails{
+    width: 100%;
+    height: 20%;
+    margin: 8%;
+    font-family: Helvetica, Arial,  sans-serif;
+    background-color: transparent;
+}
+
+.heading{
+font-size: 10px;
+background-color: transparent;
+white-space: pre;
+}
+
+.tagline{
+margin:10px 0px 10px 0px  ;
+font-size: 25px;
+font-weight: 600;
+background-color: transparent;
+white-space: pre;
+}
+
+.price{
+font-size: 16px;
+background-color: transparent;
+white-space: pre;
+}
+
+.price sup{
+    background-color: transparent;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.black sup{
+    color: black;
+}
+
+.white sup{
+    color: white;
+}
